@@ -1,5 +1,5 @@
 # example.log4j
-Contains an easy example for configuration of a log4j2 logger via XML. 
+Contains an easy example for implementation and configuration of a vendor independent wapper for log4j2 logger. 
 
 ## decoupling from concrete logging library
 Additionally it shows a way how the concrete logging librabry can be decoupled from the rest of the classes. Therefore a proper interface is introduced 
