@@ -15,9 +15,10 @@ public interface ILoggerWrapper {
 ```
 
 The factory LoggerFactory creates a logger implementing ILoggerWrapper.
-´´´
+
+```java
 private static final ILoggerWrapper logger = LoggerFactory.getLogger();
-´´´
+```
 
 The concrete ILoggerWrapper implementation Log4j2Wrapper wraps around log4j2 Logger. It supports the states InitialzedState and UninitializedState representing the logger
 in the state before and after initialization.
@@ -25,7 +26,7 @@ in the state before and after initialization.
 ## configuration
 The logger is configured by the configuration file log4j2.xml placed under ../src/main/resources/log4j2.xml.
 
-´´´
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG">
     <Appenders>
