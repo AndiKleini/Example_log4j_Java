@@ -44,6 +44,6 @@ The logger is configured by the configuration file log4j2.xml placed under ../sr
         </Root>
     </Loggers>
 </Configuration>
-´´´
+```
 
 For further configuration go through https://logging.apache.org/log4j/2.x/manual/configuration.html.
