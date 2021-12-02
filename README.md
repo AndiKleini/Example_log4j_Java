@@ -25,6 +25,7 @@ in the state before and after initialization.
 
 ## configuration
 The logger is configured by the configuration file log4j2.xml placed under ../src/main/resources/log4j2.xml.
+It specifes the global status DEBUG and create a File and Console Appender.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
