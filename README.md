@@ -5,14 +5,14 @@ Contains an easy example for configuration of a log4j2 logger via XML.
 Additionally it shows a way how the concrete logging librabry can be decoupled from the rest of the classes. Therefore a proper interface is introduced 
 offering required logging methods (debug, warn, info, fatal). 
 
-´´´java
+```java
 public interface ILoggerWrapper {
     void debug(String message);
     void fatal(String message);
     void error(String message);
     void warn(String message);
 }
-´´´
+```
 
 The factory LoggerFactory creates a logger implementing ILoggerWrapper.
 ´´´
